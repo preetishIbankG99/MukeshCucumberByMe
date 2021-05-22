@@ -1,0 +1,23 @@
+Feature: Test OrangeHRM smoke scenario
+
+  Scenario Outline: Test Login with valid credentials      [90m# MyApplication.feature:3[0m
+    [36mGiven [0m[36mOpen chrome and start application[0m
+    [36mWhen [0m[36mI enter valid "<username>" and valid "<password>"[0m
+    [36mThen [0m[36mBrowser should be closed[0m
+
+    Examples: 
+
+  Scenario Outline: Test Login with valid credentials  [90m# MyApplication.feature:10[0m
+    [32mGiven [0m[32mOpen chrome and start application[0m            [90m# StepDefinitions.open_chrome_and_start_application()[0m
+    [32mWhen [0m[32mI enter valid "[0m[32m[1mAdmin123[0m[32m" and valid "[0m[32m[1madmin123[0m[32m"[0m [90m# StepDefinitions.i_enter_valid_and_valid(String,String)[0m
+    [32mThen [0m[32mBrowser should be closed[0m                      [90m# StepDefinitions.browser_should_be_closed()[0m
+
+  Scenario Outline: Test Login with valid credentials  [90m# MyApplication.feature:11[0m
+    [32mGiven [0m[32mOpen chrome and start application[0m            [90m# StepDefinitions.open_chrome_and_start_application()[0m
+    [32mWhen [0m[32mI enter valid "[0m[32m[1mAdmin456[0m[32m" and valid "[0m[32m[1madmin456[0m[32m"[0m [90m# StepDefinitions.i_enter_valid_and_valid(String,String)[0m
+    [32mThen [0m[32mBrowser should be closed[0m                      [90m# StepDefinitions.browser_should_be_closed()[0m
+
+  Scenario Outline: Test Login with valid credentials  [90m# MyApplication.feature:12[0m
+    [32mGiven [0m[32mOpen chrome and start application[0m            [90m# StepDefinitions.open_chrome_and_start_application()[0m
+    [32mWhen [0m[32mI enter valid "[0m[32m[1mAdmin789[0m[32m" and valid "[0m[32m[1madmin789[0m[32m"[0m [90m# StepDefinitions.i_enter_valid_and_valid(String,String)[0m
+    [32mThen [0m[32mBrowser should be closed[0m                      [90m# StepDefinitions.browser_should_be_closed()[0m

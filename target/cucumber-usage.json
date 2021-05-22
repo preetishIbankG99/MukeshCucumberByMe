@@ -1,0 +1,98 @@
+[
+  {
+    "source": "^I enter valid \"([^\"]*)\" and valid \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter valid \"Admin123\" and valid \"admin123\"",
+        "aggregatedDurations": {
+          "average": 0.183133707,
+          "median": 0.183133707
+        },
+        "durations": [
+          {
+            "duration": 0.183133707,
+            "location": "MyApplication.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "I enter valid \"Admin456\" and valid \"admin456\"",
+        "aggregatedDurations": {
+          "average": 0.169540184,
+          "median": 0.169540184
+        },
+        "durations": [
+          {
+            "duration": 0.169540184,
+            "location": "MyApplication.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "I enter valid \"Admin789\" and valid \"admin789\"",
+        "aggregatedDurations": {
+          "average": 0.181068071,
+          "median": 0.181068071
+        },
+        "durations": [
+          {
+            "duration": 0.181068071,
+            "location": "MyApplication.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Browser should be closed$",
+    "steps": [
+      {
+        "name": "Browser should be closed",
+        "aggregatedDurations": {
+          "average": 4.606126316,
+          "median": 5.602641623
+        },
+        "durations": [
+          {
+            "duration": 5.602641623,
+            "location": "MyApplication.feature:6"
+          },
+          {
+            "duration": 2.304000341,
+            "location": "MyApplication.feature:6"
+          },
+          {
+            "duration": 5.911736986,
+            "location": "MyApplication.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Open chrome and start application$",
+    "steps": [
+      {
+        "name": "Open chrome and start application",
+        "aggregatedDurations": {
+          "average": 43.867108356,
+          "median": 40.393369767
+        },
+        "durations": [
+          {
+            "duration": 56.720359758,
+            "location": "MyApplication.feature:4"
+          },
+          {
+            "duration": 34.487595543,
+            "location": "MyApplication.feature:4"
+          },
+          {
+            "duration": 40.393369767,
+            "location": "MyApplication.feature:4"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Test Login with valid credentials",
+        "description": "",
+        "id": "test-orangehrm-smoke-scenario;test-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 56720359758,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open chrome and start application",
+            "match": {
+              "location": "StepDefinitions.open_chrome_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 183133707,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid \"Admin123\" and valid \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin123",
+                  "offset": 15
+                },
+                {
+                  "val": "admin123",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinitions.i_enter_valid_and_valid(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5602641623,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser should be closed",
+            "match": {
+              "location": "StepDefinitions.browser_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Test Login with valid credentials",
+        "description": "",
+        "id": "test-orangehrm-smoke-scenario;test-login-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34487595543,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open chrome and start application",
+            "match": {
+              "location": "StepDefinitions.open_chrome_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 169540184,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid \"Admin456\" and valid \"admin456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin456",
+                  "offset": 15
+                },
+                {
+                  "val": "admin456",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinitions.i_enter_valid_and_valid(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2304000341,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser should be closed",
+            "match": {
+              "location": "StepDefinitions.browser_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Test Login with valid credentials",
+        "description": "",
+        "id": "test-orangehrm-smoke-scenario;test-login-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 40393369767,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open chrome and start application",
+            "match": {
+              "location": "StepDefinitions.open_chrome_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 181068071,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid \"Admin789\" and valid \"admin789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin789",
+                  "offset": 15
+                },
+                {
+                  "val": "admin789",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinitions.i_enter_valid_and_valid(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5911736986,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser should be closed",
+            "match": {
+              "location": "StepDefinitions.browser_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test OrangeHRM smoke scenario",
+    "description": "",
+    "id": "test-orangehrm-smoke-scenario",
+    "keyword": "Feature",
+    "uri": "MyApplication.feature"
+  }
+]

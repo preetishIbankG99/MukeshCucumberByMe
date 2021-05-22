@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="145.953446">
+<testcase classname="Test OrangeHRM smoke scenario" name="Test Login with valid credentials" time="62.506135">
+<system-out><![CDATA[Given Open chrome and start application.....................................passed
+When I enter valid "Admin123" and valid "admin123"..........................passed
+Then Browser should be closed...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test OrangeHRM smoke scenario" name="Test Login with valid credentials 2" time="36.961136">
+<system-out><![CDATA[Given Open chrome and start application.....................................passed
+When I enter valid "Admin456" and valid "admin456"..........................passed
+Then Browser should be closed...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test OrangeHRM smoke scenario" name="Test Login with valid credentials 3" time="46.486175">
+<system-out><![CDATA[Given Open chrome and start application.....................................passed
+When I enter valid "Admin789" and valid "admin789"..........................passed
+Then Browser should be closed...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
